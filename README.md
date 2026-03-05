@@ -66,7 +66,8 @@ with open("story.txt", "r") as f:
     print("Complete story:\n", content)
 ```
 ## 4. Reading line by line (most memory efficient)
-```print("\nLine by line:")
+```python
+print("\nLine by line:")
 with open("story.txt", "r") as f:
     for line in f:
         print(line.strip())
