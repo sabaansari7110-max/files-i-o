@@ -52,7 +52,7 @@ with open("story.txt", "w") as f:
     f.write("Once upon a time...\n")
     f.write("Python was learning file I/O.\n")
 ```
-# 2. Appending
+## 2. Appending
 ```python
 python
 with open("story.txt", "a") as f:
