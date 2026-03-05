@@ -47,21 +47,27 @@ with open("notes.txt", "a") as file:
 All examples are in the examples/ folder (or directly below):
 1. Basic Read + Write + Append (file_basics.py)
 # 1. Writing (creates/overwrites)
+```python
 with open("story.txt", "w") as f:
     f.write("Once upon a time...\n")
     f.write("Python was learning file I/O.\n")
-
+```
 # 2. Appending
+```python
+python
 with open("story.txt", "a") as f:
     f.write("And it lived happily ever after.\n")
+```
 
 # 3. Reading whole file
+```python
 with open("story.txt", "r") as f:
     content = f.read()
     print("Complete story:\n", content)
-
+```
 # 4. Reading line by line (most memory efficient)
-print("\nLine by line:")
+```print("\nLine by line:")
 with open("story.txt", "r") as f:
     for line in f:
         print(line.strip())
+```
