@@ -33,7 +33,8 @@ Almost every useful program needs to:
 | `'w+'` | Read + Write (truncates)                 | Yes           | Yes         | beginning     |
 | `'a+'` | Read + Append                            | Yes           | No          | end           |
 
-Add `b` for binary mode → `'rb'`, `'wb'`, etc.
+Add `b` for binary mode → `'rb'`, 
+`'wb'`, etc.
 
 ## Recommended Way – Always Use `with`
 
@@ -41,3 +42,26 @@ Add `b` for binary mode → `'rb'`, `'wb'`, etc.
 with open("notes.txt", "a") as file:
     file.write("New line added!\n")
 # file is automatically closed – even if error occurs
+```
+# Practice Codes Included
+All examples are in the examples/ folder (or directly below):
+1. Basic Read + Write + Append (file_basics.py)
+# 1. Writing (creates/overwrites)
+with open("story.txt", "w") as f:
+    f.write("Once upon a time...\n")
+    f.write("Python was learning file I/O.\n")
+
+# 2. Appending
+with open("story.txt", "a") as f:
+    f.write("And it lived happily ever after.\n")
+
+# 3. Reading whole file
+with open("story.txt", "r") as f:
+    content = f.read()
+    print("Complete story:\n", content)
+
+# 4. Reading line by line (most memory efficient)
+print("\nLine by line:")
+with open("story.txt", "r") as f:
+    for line in f:
+        print(line.strip())
