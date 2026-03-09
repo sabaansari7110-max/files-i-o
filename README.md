@@ -71,3 +71,11 @@ with open("story.txt", "r") as f:
     for line in f:
         print(line.strip())
 ```
+
+## Quick Summary
+```python
+open("file.txt", "r")  → Read existing file
+open("file.txt", "w")  → Write (overwrites!) file
+open("file.txt", "a")  → Append to file
+with open(...) as f:   → Best practice — auto-closes file
+```
