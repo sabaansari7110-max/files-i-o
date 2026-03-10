@@ -42,6 +42,14 @@ with open("notes.txt", "a") as file:
     file.write("New line added!\n")
 # file is automatically closed – even if error occurs
 ```
+## How to Run
+
+1. Make sure Python is installed on your system.
+2. Clone this repository or download the file.
+   https://github.com/sabaansari7110-max/files-i-o.git
+3. Open terminal in the project folder.
+4. Run the game:
+Bash
 # Practice Codes Included
 All examples are in the examples/ folder (or directly below):
 1. Basic Read + Write + Append (file_basics.py)
