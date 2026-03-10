@@ -79,3 +79,16 @@ open("file.txt", "w")  → #Write (overwrites!) file
 open("file.txt", "a")  → #Append to file
 with open(...) as f:   → #Best practice — auto-closes file
 ```
+## Author
+
+Created as part of Python learning journey to strengthen programming fundamentals and logical thinking.
+
+## License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project with proper attribution.
+
+## Contribution
+
+This is a beginner project.
+Feel free to fork, improve, and experiment with new features.
