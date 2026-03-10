@@ -48,8 +48,7 @@ with open("notes.txt", "a") as file:
 2. Clone this repository or download the file.
    https://github.com/sabaansari7110-max/files-i-o.git
 3. Open terminal in the project folder.
-4. Run the game:
-Bash
+4. Run the code . 
 # Practice Codes Included
 All examples are in the examples/ folder (or directly below):
 1. Basic Read + Write + Append (file_basics.py)
