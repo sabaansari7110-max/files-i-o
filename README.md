@@ -1,4 +1,3 @@
-
 # Python File I/O – Read, Write, Append & with Statement
 
 A beginner-friendly repository to learn **file handling in Python** — one of the most important skills for real-world Python programming.
